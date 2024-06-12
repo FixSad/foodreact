@@ -43,13 +43,12 @@ const MealInfo = ({stateid}) =>{
                         <div class="card-header">
                           Ingredients
                             </div>
-                              
-                            <ul class="list-group list-group-flush">
-                            {ingredients.map(ingredient => {
-                              return <li class="list-group-item">{ingredient}</li>
-                            })}
-                            </ul>
-                        </div>
+                                <ul class="list-group list-group-flush">
+                                    {ingredients.map(ingredient => {
+                                        return <li class="list-group-item">{ingredient}</li>
+                                    })}
+                                </ul>
+                            </div>
                         </p> 
                     </div> 
                 </div> 
