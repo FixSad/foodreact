@@ -1,5 +1,4 @@
 import {useState, useEffect} from 'react';
-import { Link } from 'react-router-dom';
 import axios from 'axios'
 
 const apiURL = "https://www.themealdb.com/api/json/v1/1/lookup.php?i="
@@ -51,11 +50,6 @@ const MealInfo = ({stateid}) =>{
                             })}
                             </ul>
                         </div>
-                        </p> 
-                        <p class="card-text"> 
-                            <small class="text-muted"> 
-                                Last updated now 
-                            </small> 
                         </p> 
                     </div> 
                 </div> 
